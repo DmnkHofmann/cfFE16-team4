@@ -12,19 +12,19 @@ const routes: Routes = [
     path:"", component:MainComponent
   },
   {
-    path:"/about", component:AboutComponent
+    path:"about", component:AboutComponent
   },
   {
-    path:"/awards", component:AwardsComponent
+    path:"awards", component:AwardsComponent
   },
   {
-    path:"/contact", component:ContactComponent
+    path:"contact", component:ContactComponent
   },
   {
-    path:"/customer", component:CustomerComponent
+    path:"customer", component:CustomerComponent
   },
   {
-    path:"/reviews", component:ReviewsComponent
+    path:"reviews", component:ReviewsComponent
   }
 ];
 
