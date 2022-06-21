@@ -1,7 +1,7 @@
 .my_footer
 {
     height: 13vh;
-    background-color: rgba(0,0,0,.65);
+    background-color: #212529;
 }
 
 .icons
@@ -12,13 +12,14 @@
 }
 .icons > i
 {
-    font-size: 1.8em;
-    color: black;
+    font-size: 1.6em;
+    color: #9B9D9E;
     padding-top: 20px;
 }
 
 .footer_text
 {
-    font-size: larger;
+    font-size: 1em;
     text-align: center;
+    color: #9B9D9E;
 }

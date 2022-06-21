@@ -1,10 +1,37 @@
-.carousel-item {
-    height: 35rem;
+.carousel-item 
+{
+    height: 50vh;
     background-color: #777;
 }
 
-.carousel-item>img {
-    position: absolute;
-    left: 0;
-    bottom:  -35vh;
+#img1
+{
+    background-image: url(../../assets/hero/hero1.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+#img2
+{
+    background-image: url(../../assets/hero/hero2.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+#img3
+{
+    background-image: url(../../assets/hero/hero3.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+#img4
+{
+    background-image: url(../../assets/hero/hero4.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
 }
