@@ -1,14 +1,12 @@
-.carousel-item 
-{
+.carousel-item {
     height: 35rem;
     background-color: #777;
 }
 
-.carousel-item > img 
-{
+.carousel-item>img {
     position: absolute;
     left: 0;
-    bottom:  -300px;
+    bottom: -10vh;
     /* background-position: center;
     background-size: cover;
     min-width: 100%;
