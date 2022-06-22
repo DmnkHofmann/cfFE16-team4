@@ -1,16 +1,14 @@
-.font
-{
-    font-family: 'Barlow Condensed', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+* {
+    font-family: "Barlow Condensed", sans-serif;
 }
 
-#h1_topic
-{
+#h1_topic {
     text-align: center;
     font-size: 3.3em;
 }
 
-.img_size
-{
+.img_size {
     object-position: center;
     object-fit: cover;
 }

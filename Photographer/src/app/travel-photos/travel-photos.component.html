@@ -1,14 +1,14 @@
 <!-- street photos -->
-<div class="font container">
+<div class="container">
     <div class="row my-3">
         <h1 id="h1_topic">Travel Photos</h1>
     </div>
     <div class="row mt-1">
         <div class="col-lg-4 col-md-6 col-sm-12 g-1 mx-auto" *ngFor="let foto of fotos; index as i">
-            <ng-template [ngIf]='getTopicName() == foto.topic'>
+            <ng-template [ngIf]="getTopicName() == foto.topic">
                 <div class="card border border-1 border-opacity-20 shadow-lg mx-auto">
-                    <img src="{{foto.img}}" class="img_size card-img-top pt-2 px-2 img-fluid mx-auto d-none d-sm-block" alt="...">
-                    <h5 class="card-title ps-2 fs-3 pt-2">{{foto.name}}</h5>
+                    <img src="{{ foto.img }}" class="img_size card-img-top pt-2 px-2 img-fluid mx-auto d-none d-sm-block" alt="..." />
+                    <h5 class="card-title ps-2 fs-3 pt-2">{{ foto.name }}</h5>
                 </div>
             </ng-template>
         </div>

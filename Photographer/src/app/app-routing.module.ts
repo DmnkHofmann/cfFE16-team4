@@ -14,42 +14,53 @@ import { TravelPhotosComponent } from './travel-photos/travel-photos.component';
 
 const routes: Routes = [
   {
-    path:"", component:MainComponent
+    path: '',
+    component: MainComponent,
   },
   {
-    path:"about", component:AboutComponent
+    path: 'about',
+    component: AboutComponent,
   },
   {
-    path:"awards", component:AwardsComponent
+    path: 'awards',
+    component: AwardsComponent,
   },
   {
-    path:"contact", component:ContactComponent
+    path: 'contact',
+    component: ContactComponent,
   },
   {
-    path:"customer", component:CustomerComponent
+    path: 'customer',
+    component: CustomerComponent,
   },
   {
-    path:"reviews", component:ReviewsComponent
+    path: 'reviews',
+    component: ReviewsComponent,
   },
   {
-    path:"street", component:StreetPhotosComponent
+    path: 'street',
+    component: StreetPhotosComponent,
   },
   {
-    path:"animal", component:AnimalPhotosComponent
+    path: 'animal',
+    component: AnimalPhotosComponent,
   },
   {
-    path:"cele", component:CelebrityPhotosComponent
+    path: 'cele',
+    component: CelebrityPhotosComponent,
   },
   {
-    path:"model", component:ModelPhotosComponent
+    path: 'model',
+    component: ModelPhotosComponent,
   },
   {
-    path:"travel", component:TravelPhotosComponent
-  }
+    path: 'travel',
+    component: TravelPhotosComponent,
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

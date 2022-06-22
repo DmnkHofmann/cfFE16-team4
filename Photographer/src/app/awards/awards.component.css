@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+* {
+    font-family: "Barlow Condensed", sans-serif;
+}
+
 .parallax {
     /* The image used */
     background-image: url("/assets/awards/awards-1.jpg");
@@ -45,7 +49,7 @@
 .award_text {
     color: gray;
     margin-bottom: 20vw;
-    font-family: "Barlow Condensed", sans-serif;
+    /* font-family: "Barlow Condensed", sans-serif; */
 }
 
 .award_info {
@@ -54,11 +58,11 @@
     font-size: 1rem;
     margin-top: 5vh;
     font-weight: 200;
-    font-family: "Barlow Condensed", sans-serif;
+    /* font-family: "Barlow Condensed", sans-serif; */
 }
 
 .award_name {
     font-size: 2rem;
     color: #ad9f02;
-    font-family: "Barlow Condensed", sans-serif;
+    /* font-family: "Barlow Condensed", sans-serif; */
 }

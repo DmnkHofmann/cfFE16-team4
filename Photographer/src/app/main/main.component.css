@@ -16,6 +16,10 @@
     font-family: "Great Vibes", cursive;
 }
 
+.text_main {
+    font-size: 1.2rem;
+}
+
 .main_photo {
     width: 10vw;
     height: 8vh;
@@ -33,17 +37,12 @@
     object-position: center;
     object-fit: cover;
     height: 200px;
-<<<<<<< HEAD
-=======
 }
 
-#main-topics > a
-{
+#main-topics>a {
     text-decoration: none;
 }
 
-#main-topics > a:hover
-{
-    color: #9B9D9E;
->>>>>>> a67234b23f24f4a205f614c5ce9f7000ad264c5f
+#main-topics>a:hover {
+    color: #9b9d9e;
 }
