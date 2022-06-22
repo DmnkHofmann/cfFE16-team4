@@ -33,3 +33,12 @@
     height: 200px;
 }
 
+#main-topics > a
+{
+    text-decoration: none;
+}
+
+#main-topics > a:hover
+{
+    color: #9B9D9E;
+}
