@@ -1,8 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
-* {
-    font-family: "Barlow Condensed", sans-serif;
-}
-
 .my_footer {
     height: 13vh;
     background-color: #212529;
