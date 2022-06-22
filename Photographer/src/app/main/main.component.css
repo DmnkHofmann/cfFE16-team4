@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
 * {
     background-color: black;
     color: white;
+    font-family: "Barlow Condensed", sans-serif;
 }
 
 
@@ -32,4 +34,3 @@
     object-fit: cover;
     height: 200px;
 }
-
