@@ -17,6 +17,7 @@ import { TravelPhotosComponent } from './travel-photos/travel-photos.component';
 import { ModelPhotosComponent } from './model-photos/model-photos.component';
 import { AnimalPhotosComponent } from './animal-photos/animal-photos.component';
 import { CelebrityPhotosComponent } from './celebrity-photos/celebrity-photos.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { CelebrityPhotosComponent } from './celebrity-photos/celebrity-photos.co
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
