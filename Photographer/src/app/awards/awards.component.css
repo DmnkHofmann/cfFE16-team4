@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+.parallax {
+    /* The image used */
+    background-image: url("/assets/awards/awards-1.jpg");
+    /* Set a specific height */
+    height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.awards {
+    height: 100%;
+    background-color: black;
+    padding: 0 8vw;
+}
+
+.ipa_img {
+    width: auto;
+}
+
+.best_text {
+    width: 80vw;
+}
+
+.line {
+    /* width: 100%; */
+    background-color: transparent;
+    margin: auto;
+}
+
+
+/* .info_box {
+    padding: auto;
+} */
+
+.award_photo {
+    width: 25vw;
+}
+
+.award_text {
+    color: gray;
+    margin-bottom: 20vw;
+}
+
+.award_info {
+    /* width: 30rem; */
+    background-color: black;
+    font-size: 1rem;
+    margin-top: 5vh;
+    font-weight: 200;
+}
+
+.award_name {
+    font-size: 2rem;
+    color: #ad9f02;
+    font-family: "Barlow Condensed", sans-serif;
+}
