@@ -33,4 +33,17 @@
     object-position: center;
     object-fit: cover;
     height: 200px;
+<<<<<<< HEAD
+=======
+}
+
+#main-topics > a
+{
+    text-decoration: none;
+}
+
+#main-topics > a:hover
+{
+    color: #9B9D9E;
+>>>>>>> a67234b23f24f4a205f614c5ce9f7000ad264c5f
 }

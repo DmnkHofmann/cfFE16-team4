@@ -12,6 +12,11 @@ import { ReviewsComponent } from './reviews/reviews.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { CustomerComponent } from './customer/customer.component';
+import { StreetPhotosComponent } from './street-photos/street-photos.component';
+import { TravelPhotosComponent } from './travel-photos/travel-photos.component';
+import { ModelPhotosComponent } from './model-photos/model-photos.component';
+import { AnimalPhotosComponent } from './animal-photos/animal-photos.component';
+import { CelebrityPhotosComponent } from './celebrity-photos/celebrity-photos.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
@@ -25,7 +30,12 @@ import { ReactiveFormsModule } from '@angular/forms';
     ReviewsComponent,
     ContactComponent,
     FooterComponent,
-    CustomerComponent
+    CustomerComponent,
+    StreetPhotosComponent,
+    TravelPhotosComponent,
+    ModelPhotosComponent,
+    AnimalPhotosComponent,
+    CelebrityPhotosComponent
   ],
   imports: [
     BrowserModule,
