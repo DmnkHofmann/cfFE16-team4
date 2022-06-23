@@ -1,11 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
-* {
-    font-family: "Barlow Condensed", sans-serif;
-}
-
 .carousel-item {
-    height: 70vh;
+    height: 50vh;
     background-color: #777;
+    font-size: 1.6rem;
 }
 
 #img1 {

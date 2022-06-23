@@ -1,10 +1,10 @@
-<!-- street photos -->
-<div class="font container">
-    <div class="row my-3">
+<!-- travel photos -->
+<div class="container">
+    <div class="row mt-5 mb-5">
         <h1 id="h1_topic">Travel Photos</h1>
     </div>
-    <div class="row mt-1">
-        <div class="col-lg-4 col-md-6 col-sm-12 g-1 mx-auto" *ngFor="let foto of fotos; index as i">
+    <div class="row mt-3 mb-1">
+        <div class="col-lg-4 col-md-6 col-sm-12 g-2 mx-auto" *ngFor="let foto of fotos">
             <ng-template [ngIf]="getTopicName() == foto.topic">
                 <div class="card border border-1 border-opacity-20 shadow-lg mx-auto">
                     <img src="{{ foto.img }}" class="img_size card-img-top pt-2 px-2 img-fluid mx-auto d-none d-sm-block" alt="..." />

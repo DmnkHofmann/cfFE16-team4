@@ -1,22 +1,11 @@
-/* Importing fonts from Google */
-
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
-
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"); */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* font-family: "Poppins", sans-serif; */
-    font-family: "Barlow Condensed", sans-serif;
+* 
+{
     font-size: 1rem;
 }
 
 .review-list {
     background: black;
     animation: background-color 20s;
-    /* min-height: 100vh; */
     background-repeat: no-repeat;
     color: #000;
     overflow-x: hidden;
@@ -58,8 +47,6 @@
     backface-visibility: hidden;
     border-top: 1px solid #ddd;
     border-left: 1px solid #ddd;
-    /* border-right: 1px solid #999;
-border-bottom: 1px solid #999; */
 }
 
 .card .face.front-face,
@@ -83,7 +70,6 @@ border-bottom: 1px solid #999; */
 }
 
 .card .face.front-face .designation {
-    /* font-size: 0.8rem; */
     color: #ddd;
     letter-spacing: 0.8px;
 }
@@ -144,7 +130,6 @@ border-bottom: 1px solid #999; */
 }
 
 .review-list ul li .right h4 {
-    /* font-size: 16px; */
     margin: 0;
     display: flex;
     color: #95979d;
@@ -173,7 +158,6 @@ border-bottom: 1px solid #999; */
 
 .country .country-name {
     color: #95979d;
-    /* font-size: 13px; */
     font-weight: 600;
 }
 
@@ -192,18 +176,15 @@ border-bottom: 1px solid #999; */
 }
 
 .review-list ul li .review-description p {
-    /* font-size: 14px; */
     margin: 0;
     color: whitesmoke;
 }
 
 .review-list ul li .publish {
-    /* font-size: 13px; */
     color: #95979d;
 }
 
 .review-section h4 {
-    /* font-size: 20px; */
     color: #222325;
     font-weight: 700;
 }

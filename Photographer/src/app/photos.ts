@@ -93,7 +93,7 @@ export const photos = [
     {
         topic: 'model',
         name: 'modelfoto1',
-        img: 'assets/main/street/street1.jpg'
+        img: 'assets/main/model/model1.jpg'
     },
     {
         topic: 'model',

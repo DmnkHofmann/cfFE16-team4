@@ -1,4 +1,4 @@
-<nav class="fixed-top navbar navbar-expand-lg bg-dark navbar-dark">
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
     <div class="container-fluid">
         <a class="navbar-brand" routerLink="/"><img
                 src="assets/navimages/camera.png"
@@ -23,6 +23,19 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" routerLink="contact">Contact me</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Photos&nbsp;by&nbsp;topic
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" routerLink="/street">Street Photos</a></li>
+                      <li><a class="dropdown-item" routerLink="/travel">Travel Photos</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" routerLink="/model">Models</a></li>
+                      <li><a class="dropdown-item" routerLink="/animal">Animals</a></li>
+                      <li><a class="dropdown-item" routerLink="/cele">Celebrities</a></li>
+                    </ul>
                 </li>
             </ul>
         </div>

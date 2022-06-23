@@ -1,15 +1,23 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sacramento&display=swap"); */
 
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
 * {
     background-color: black;
     color: white;
-    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.2rem;
 }
 
 .topic {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: color;
-    /* font-family: "Great Vibes"; */
-    font-family: "Barlow Condensed", sans-serif;
+    font-family: 'Great Vibes', cursive;
+}
+
+#about-img
+{
+    width: 100%;
+    height: 60vh;
+}
+
+#about-img > img
+{
+    height: 100%;
 }

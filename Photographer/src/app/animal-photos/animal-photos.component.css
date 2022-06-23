@@ -1,0 +1,10 @@
+#h1_topic {
+    text-align: center;
+    font-size: 3.3em;
+}
+
+.img_size {
+    object-position: center;
+    object-fit: cover;
+    
+}
